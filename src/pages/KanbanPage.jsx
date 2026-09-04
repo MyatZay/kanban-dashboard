@@ -20,7 +20,7 @@ function KanbanPage({ tasks, categories, people, onCreate, onUpdate, onDelete, o
     if (editingTask) onUpdate(editingTask.id, normalized)
     else onCreate(normalized)
   }
-  const removeTask = (task) => window.confirm(`Delete “${task.title}”? This action cannot be undone.`) && onDelete(task.id)
+  const removeTask = (task) => onDelete(task.id)
   const submitCategory = (event) => { event.preventDefault(); if (onAddCategory(categoryName)) setCategoryName('') }
 
   return (
