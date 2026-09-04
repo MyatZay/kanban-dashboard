@@ -1,6 +1,6 @@
 export const defaultPeople = [
   { id: 'person-1', name: 'Myat Zay Hein' },
-  { id: 'person-2', name: 'Myo Kyi San Thar' },
+  { id: 'person-2', name: 'Myo Kyi Sim Thar' },
 ]
 
 export const defaultCategories = ['Design', 'Development', 'Research', 'Testing']
